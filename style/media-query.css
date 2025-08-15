@@ -1,13 +1,14 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-
+    /* TABLETS */
     body{
         background-image: linear-gradient(to bottom, #212020, #000);
     }
 
     .login{
         width: 80vw;
+        height: 430px;
     }
 
     .imagem{
@@ -23,13 +24,14 @@
 }
 
 @media screen and (min-width: 992px) {
-
+        /* Desktop */
     body{
-    background-image: linear-gradient(to top, #212020, #7a7878);
+    background-image: linear-gradient(to bottom, #212020, #7a7878);
     }
     
     .login{
         width: 950px;
+        height: 540px;
     }
 
     .imagem{
@@ -49,5 +51,6 @@
 
     .formulário p{
         font-size: 1.2em;
+        margin: 15px 0;
     }
 }
